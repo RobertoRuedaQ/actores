@@ -1,0 +1,14 @@
+<h1><% @actors.each do |e| %> </h1>
+<table>
+	<tr>
+		<th><%= e.name %></th>
+		<th><%= e.bio %></th>
+		<th><%= e.birth_date %></th>
+		<th><%= e.birth_place %></th>
+		<th><%= e.image_url %></th>
+		<th><%= e.alive %></th>
+		<th><%= e.death_place %></th>
+	</tr>
+</table>
+	
+<% end %>
