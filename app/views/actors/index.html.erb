@@ -5,10 +5,12 @@
 		<th><%= e.bio %></th>
 		<th><%= e.birth_date %></th>
 		<th><%= e.birth_place %></th>
-		<th><%= e.image_url %></th>
+		<th><img src="<%= e.image_url %>"></th>
 		<th><%= e.alive %></th>
 		<th><%= e.death_place %></th>
 	</tr>
 </table>
 	
 <% end %>
+
+<a href="/actors/new">Crear Actor</a>
