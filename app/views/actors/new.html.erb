@@ -1,0 +1,11 @@
+<%= form_for @actor, :url => "/actors" do |f| %>
+  name: <%= f.text_field :name %></br>
+  bio: <%= f.text_field :bio %></br>
+  birth_date: <%= f.text_field :birth_date %></br> 
+  birth_place: <%= f.text_field :birth_place%></br>
+  image_url: <%= f.text_field :image_url%></br>
+  alive: <%= f.text_field :alive%></br>
+  death_date: <%= f.text_field :death_date%></br>
+  death_place: <%= f.text_field :death_date%></br>
+  <%=submit_tag "Crear"%>
+<% end %>
